@@ -1,7 +1,4 @@
-# Folio
-
-
-## Portfolio web-app
+# Folio: Portfolio web-app
 
 
 ## Tech Stack
