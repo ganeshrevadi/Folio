@@ -15,7 +15,7 @@ export default function Home() {
     <div className="p-3 flex flex-col justify-between">
       <NavBar />
       <div className="flex flex-row justify-center p-7 ">
-        <img className="rounded-full w-72 h-72 ring-2 ring-slate-400 " src={logo} alt="image description" />
+        <img class="rounded-full w-72 h-72 ring-2 ring-slate-400 " src={logo} alt="image description" />
       </div>
       <div className="text-center p-5 pt-5">
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
