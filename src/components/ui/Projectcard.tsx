@@ -1,7 +1,8 @@
 type Projects = {
   title: String,
   desc: String,
-  link: string
+  link: string,
+  deploy?: string
 }
 
 export default function Projectcard({ title, desc, link, deploy }: Projects) {
