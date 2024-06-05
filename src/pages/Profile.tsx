@@ -1,12 +1,13 @@
 import { ThemeProvider } from "@/components/theme-provider"
 import NavBar from "@/components/ui/NavBar"
 import logo from "@/assets/Profile.jpeg"
+import { BackgroundBeams } from "@/components/ui/background-beams"
 
 export default function Profile() {
 
   return <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
     <div className="p-3 flex flex-col justify-between">
-
+    <BackgroundBeams/>
       <NavBar />
 
       <div className="text-center p-5 pt-10">
@@ -26,7 +27,8 @@ export default function Profile() {
           </blockquote>
         </div>
       </div>
-
+      
     </div>
+    
   </ThemeProvider>
 }

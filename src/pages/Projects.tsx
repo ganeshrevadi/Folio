@@ -1,8 +1,10 @@
+import { BackgroundBeams } from "@/components/ui/background-beams";
 import NavBar from "@/components/ui/NavBar";
 import Projectcard from "@/components/ui/Projectcard";
 
 export default function Projects() {
   return <div className="p-3 flex flex-col justify-between">
+    <BackgroundBeams/>
     <NavBar />
     
     <div className=" p-5 pt-10">
