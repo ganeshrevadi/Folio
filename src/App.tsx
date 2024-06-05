@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Home from "./pages/home"
 import Profile from "./pages/Profile"
 import Blogs from "./pages/Blogs"
-import Readings from "./pages/Readings"
+import Projects from "./pages/Projects"
 
 function App() {
   return <BrowserRouter>
@@ -10,7 +10,7 @@ function App() {
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<Profile />} />
       <Route path="/blogs" element={<Blogs />} />
-      <Route path="/readings" element={<Readings />} />
+      <Route path="/projects" element={<Projects />} />
     </Routes>
   </BrowserRouter>
 
