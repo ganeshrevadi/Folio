@@ -1,7 +1,6 @@
 import { ThemeProvider } from "@/components/theme-provider"
 import NavBar from "@/components/ui/NavBar"
 import logo from "@/assets/Profile.jpeg"
-import { BackgroundBeams } from "@/components/ui/background-beams";
 
 export default function Home() {
 
@@ -14,7 +13,6 @@ export default function Home() {
 
   return <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
     <div className="p-3 flex flex-col justify-between">
-    <BackgroundBeams/>
       <NavBar />
       <div className="flex flex-row justify-center p-7 ">
         <img className="rounded-full w-72 h-72 ring-2 ring-slate-400 " src={logo} alt="image description" />
@@ -39,7 +37,7 @@ export default function Home() {
           </svg>
         </button>
       </div>
-      
+
     </div>
   </ThemeProvider>
 }
